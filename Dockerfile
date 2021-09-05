@@ -1,7 +1,7 @@
 FROM debian:stable-slim
-MAINTAINER OIVAS7572
-RUN echo OIVAS7572
-CMD echo OIVAS7572
+MAINTAINER aaravstrongestbot
+RUN echo aaravstrongestbot
+CMD echo aaravstrongestbot
 COPY . .
 
 #ADD /engine/ .
@@ -17,7 +17,7 @@ RUN rm Goi5.1.bin.7z
 RUN wget --no-check-certificate "https://gitlab.com/OIVAS7572/Cerebellum3merge.bin/-/raw/master/Cerebellum3Merge.bin.7z" -O Cerebellum3Merge.bin.7z
 Run 7z e Cerebellum3Merge.bin.7z
 RUN rm Cerebellum3Merge.bin.7z
-RUN wget --no-check-certificate "https://abrok.eu/stockfish/builds/590447d7a162058ed1f68270c84aac4e2f256bb1/linux64modern/stockfish_21082209_x64_modern.zip" -O chess-engine.zip
+RUN wget --no-check-certificate "https://abrok.eu/stockfish/builds/2807dcfab671bfc7a1bea79f5639dbbd505703ad/linux64modern/stockfish_21083112_x64_modern.zip" -O chess-engine.zip
 #RUN wget --no-check-certificate "https://data.stockfishchess.org/nn/nn-938525872610.nnue" -O nn-938525872610.nnue
 RUN 7z e chess-engine.zip && rm chess-engine.zip && mv stockfish* chess-engine
 
