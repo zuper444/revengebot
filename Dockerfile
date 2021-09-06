@@ -1,7 +1,7 @@
 FROM debian:stable-slim
-MAINTAINER aaravstrongestbot
-RUN echo aaravstrongestbot
-CMD echo aaravstrongestbot
+MAINTAINER OIVAS7572
+RUN echo OIVAS7572
+CMD echo OIVAS7572
 COPY . .
 
 #ADD /engine/ .
