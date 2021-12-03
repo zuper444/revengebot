@@ -1,4 +1,4 @@
-token: "lip_gX06wq0hibKtjLzHkzj3"    # Lichess OAuth2 Token.
+token: "lip_wH9PxfTuknBuyPZwL7m7"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
 engine:                      # Engine settings.
@@ -7,7 +7,7 @@ engine:                      # Engine settings.
   protocol: "uci"            # "uci" or "xboard"
   ponder: true               # Think on opponent's time.
   polyglot:
-    enabled: false           # Activate polyglot book.
+    enabled: true           # Activate polyglot book.
     book:
       standard:              # List of book file paths for variant standard.
         - Goi5.1.bin
@@ -80,7 +80,7 @@ challenge:                   # incoming challenges
     - bullet
     - blitz
     - rapid
-#   - classical
+    - classical
 #   - correspondence
   modes:                     # game modes to accept
     - casual                 # unrated games
