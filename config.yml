@@ -1,4 +1,4 @@
-token: "lip_qR9wbIdynb3gqqIJtDHx"    # Lichess OAuth2 Token.
+token: "lip_MX4aIZaYtZ9YJl0EWuXn"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
 engine:                      # Engine settings.
@@ -66,11 +66,11 @@ challenge:                   # incoming challenges
   max_increment: 180         # maximum amount of increment to accaept a challenge. the max is 180. set to 0 for no increment
   min_increment: 0           # minimum amount of increment to accept a challenge
   variants:                  # chess variants to accept (http://lichess.org/variant)
-#   - standard
+    - standard
 #   - fromPosition
     - antichess
     - atomic
-#   - chess960
+    - chess960
     - crazyhouse
     - horde
     - kingOfTheHill
