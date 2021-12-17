@@ -67,10 +67,10 @@ challenge:                   # incoming challenges
   min_increment: 0           # minimum amount of increment to accept a challenge
   variants:                  # chess variants to accept (http://lichess.org/variant)
     - standard
-#   - fromPosition
+    - fromPosition
     - antichess
     - atomic
-#   - chess960
+    - chess960
     - crazyhouse
     - horde
     - kingOfTheHill
@@ -81,7 +81,7 @@ challenge:                   # incoming challenges
     - blitz
     - rapid
     - classical
-#   - correspondence
+    - correspondence
   modes:                     # game modes to accept
     - casual                 # unrated games
     - rated                  # rated games - must comment if the engine doesn't try to win
